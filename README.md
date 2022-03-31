@@ -7,4 +7,9 @@ it does first!
 
 Use at your own risk.
 
+# minimumX.sh
+A minimum X (graphical) setup
 
+```
+wget 
+```
