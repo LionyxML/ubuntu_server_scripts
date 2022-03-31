@@ -11,5 +11,8 @@ Use at your own risk.
 A minimum X (graphical) setup
 
 ```
-wget 
+cd ~
+wget https://github.com/LionyxML/ubuntu_server_scripts/blob/main/minimumX.sh
+chmod a+x minimumX.sh
+sudo sh ./minimumX.sh
 ```
