@@ -5,10 +5,14 @@ Some scripts to ease life in ubuntu server
 DO NOT run scripts without looking inside and understanding what
 it does first!
 
+None are well tested and or well built, use for reference only.
+
 Use at your own risk.
 
 # minimumX.sh
-A minimum X (graphical) setup
+A (not so) minimum X (graphical) setup.
+
+Run this sequence of commands from ubuntu's terminal.
 
 ```
 cd ~
