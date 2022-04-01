@@ -3,8 +3,7 @@
 echo "Installing for simple X support!"
 echo "Please run this script with sudo inside your home dir"
 echo "If you're not ready, Ctrl-C NOW!"
-echo "Ready? ENTER"
-read
+read -p "Press any key to continue" n1 -s
 
 apt-get update
 apt-get upgrade
