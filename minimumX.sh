@@ -1,9 +1,15 @@
 #!/usr/bin/sh
 
+echo ""
 echo "Installing for simple X support!"
+echo "--------------------------------"
 echo "Please run this script with sudo inside your home dir"
+echo ""
 echo "If you're not ready, Ctrl-C NOW!"
-read -p "Press any key to continue" n1 -s
+echo ""
+echo "Feeling luck? wait 15 seconds..."
+
+sleep 15
 
 apt-get update
 apt-get upgrade
