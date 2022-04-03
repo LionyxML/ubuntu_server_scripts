@@ -9,6 +9,8 @@ None are well tested and or well built, use for reference only.
 
 Use at your own risk.
 
+Tested with default install of Ubuntu 20 LTS.
+
 # minimumX.sh
 A (not so) minimum X (graphical) setup.
 
@@ -20,3 +22,6 @@ wget https://github.com/LionyxML/ubuntu_server_scripts/blob/main/minimumX.sh
 chmod a+x minimumX.sh
 sudo sh ./minimumX.sh
 ```
+And now you're read to start X with `startx` command.
+
+
