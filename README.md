@@ -22,6 +22,6 @@ wget https://github.com/LionyxML/ubuntu_server_scripts/blob/main/minimumX.sh
 chmod a+x minimumX.sh
 sudo sh ./minimumX.sh
 ```
-And now you're read to start X with `startx` command.
+And now you're ready to start X with `startx` command.
 
 
