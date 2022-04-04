@@ -5,7 +5,8 @@ echo "---------------------------------"
 echo "Installing for minimum X support!"
 echo "---------------------------------"
 echo ""
-echo "Please run this script with sudo inside your home dir"
+echo "Provide your sudo password when prompted."
+echo "Answer yes to "
 echo ""
 echo "If you're not ready, Ctrl-C NOW!"
 echo ""
@@ -13,11 +14,12 @@ echo "Feeling luck? wait 15 seconds..."
 
 sleep 15
 
-apt-get update
-apt-get upgrade
-apt-get install xinit
-apt-get install x11-apps
-apt-get install openbox
+cd ~
+sudo apt-get -y update
+sudo apt-get -y upgrade
+sudo apt-get -y install xinit
+sudo apt-get -y install x11-apps
+sudo apt-get -y install openbox
 
 echo "Creating .xinitrc..."
 echo "xterm&" > .xinitrc
@@ -33,5 +35,7 @@ echo "XTerm*utf8: 1" >> .Xdefaults
 echo "XTerm*background: black" >> .Xdefaults
 echo "XTerm*foreground: white" >> .Xdefaults
 
-echo "If it is all ok, run 'startx'"
+echo "That's all folks! If no errors where thrown, this script is finished."
+echo ""
+echo "You can now issue 'startx' to start your X session."
 
