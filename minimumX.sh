@@ -35,7 +35,6 @@ echo "XTerm*utf8: 1" >> .Xdefaults
 echo "XTerm*background: black" >> .Xdefaults
 echo "XTerm*foreground: white" >> .Xdefaults
 
-echo "That's all folks! If no errors where thrown, this script is finished."
 echo ""
 echo "You can now issue 'startx' to start your X session."
 
