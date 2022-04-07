@@ -2,7 +2,7 @@
 Some scripts to ease life in ubuntu server
 
 # IMPORTANT!
-DO NOT run scripts without looking inside and understanding what
+*DO NOT* run scripts without looking inside and understanding what
 it does first!
 
 None are well tested and or well built, use them for reference only.
