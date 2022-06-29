@@ -19,7 +19,9 @@ sudo apt-get -y update
 sudo apt-get -y upgrade
 sudo apt-get -y install xinit
 sudo apt-get -y install x11-apps
+sudo apt-get -y install xterm
 sudo apt-get -y install openbox
+sudo systemctl disable gdm
 
 echo "Creating .xinitrc..."
 echo "xterm&" > .xinitrc
